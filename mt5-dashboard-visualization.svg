@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750">
+  <!-- Dashboard Background -->
+  <rect width="1000" height="750" fill="#f4f4f4"/>
+  
+  <!-- Dashboard Header -->
+  <rect x="0" y="0" width="1000" height="60" fill="#0078D4"/>
+  <text x="30" y="38" font-family="Arial" font-size="24" fill="white">MT5 Trading Data Analytics Dashboard</text>
+  
+  <!-- Navigation Tabs -->
+  <rect x="30" y="70" width="150" height="40" fill="#0078D4" rx="5"/>
+  <text x="70" y="95" font-family="Arial" font-size="14" fill="white">Account Overview</text>
+  
+  <rect x="190" y="70" width="150" height="40" fill="#444444" rx="5"/>
+  <text x="230" y="95" font-family="Arial" font-size="14" fill="white">Trade Analysis</text>
+  
+  <rect x="350" y="70" width="150" height="40" fill="#444444" rx="5"/>
+  <text x="385" y="95" font-family="Arial" font-size="14" fill="white">Market Analysis</text>
+  
+  <rect x="510" y="70" width="150" height="40" fill="#444444" rx="5"/>
+  <text x="535" y="95" font-family="Arial" font-size="14" fill="white">Risk Management</text>
+  
+  <!-- Date Range Selector -->
+  <rect x="700" y="70" width="270" height="40" fill="white" stroke="#cccccc" rx="5"/>
+  <text x="710" y="95" font-family="Arial" font-size="14" fill="#444444">Date Range: Jan 1, 2025 - Mar 15, 2025</text>
+  <rect x="950" y="80" width="10" height="10" fill="#444444" rx="2"/>
+  <rect x="950" y="90" width="10" height="10" fill="#444444" rx="2"/>
+  
+  <!-- Main Content Area -->
+  
+  <!-- Equity Curve Chart -->
+  <rect x="30" y="130" width="630" height="250" fill="white" stroke="#cccccc"/>
+  <text x="50" y="155" font-family="Arial" font-size="16" font-weight="bold" fill="#444444">Equity Curve</text>
+  
+  <!-- Equity Curve Plot -->
+  <polyline points="80,320 130,310 180,330 230,300 280,280 330,290 380,260 430,240 480,220 530,180 580,220" 
+            fill="none" stroke="#0078D4" stroke-width="3"/>
+  
+  <!-- Equity Curve Axis -->
+  <line x1="80" y1="330" x2="600" y2="330" stroke="#cccccc" stroke-width="1"/>
+  <line x1="80" y1="330" x2="80" y2="170" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- Axis Labels -->
+  <text x="60" y="170" font-family="Arial" font-size="10" fill="#888888">$25,000</text>
+  <text x="60" y="220" font-family="Arial" font-size="10" fill="#888888">$20,000</text>
+  <text x="60" y="270" font-family="Arial" font-size="10" fill="#888888">$15,000</text>
+  <text x="60" y="320" font-family="Arial" font-size="10" fill="#888888">$10,000</text>
+  
+  <text x="80" y="345" font-family="Arial" font-size="10" fill="#888888">Jan 1</text>
+  <text x="230" y="345" font-family="Arial" font-size="10" fill="#888888">Feb 1</text>
+  <text x="380" y="345" font-family="Arial" font-size="10" fill="#888888">Mar 1</text>
+  <text x="530" y="345" font-family="Arial" font-size="10" fill="#888888">Mar 15</text>
+  
+  <!-- Performance Metrics -->
+  <rect x="680" y="130" width="290" height="250" fill="white" stroke="#cccccc"/>
+  <text x="700" y="155" font-family="Arial" font-size="16" font-weight="bold" fill="#444444">Performance Metrics</text>
+  
+  <!-- Metric Cards -->
+  <rect x="700" y="170" width="120" height="90" fill="#f9f9f9" stroke="#cccccc" rx="5"/>
+  <text x="720" y="195" font-family="Arial" font-size="12" fill="#888888">Total Profit</text>
+  <text x="720" y="225" font-family="Arial" font-size="22" font-weight="bold" fill="#0078D4">$4,857.22</text>
+  
+  <rect x="830" y="170" width="120" height="90" fill="#f9f9f9" stroke="#cccccc" rx="5"/>
+  <text x="850" y="195" font-family="Arial" font-size="12" fill="#888888">Win Rate</text>
+  <text x="850" y="225" font-family="Arial" font-size="22" font-weight="bold" fill="#0078D4">63.8%</text>
+  
+  <rect x="700" y="270" width="120" height="90" fill="#f9f9f9" stroke="#cccccc" rx="5"/>
+  <text x="720" y="295" font-family="Arial" font-size="12" fill="#888888">Profit Factor</text>
+  <text x="720" y="325" font-family="Arial" font-size="22" font-weight="bold" fill="#0078D4">1.82</text>
+  
+  <rect x="830" y="270" width="120" height="90" fill="#f9f9f9" stroke="#cccccc" rx="5"/>
+  <text x="850" y="295" font-family="Arial" font-size="12" fill="#888888">Max Drawdown</text>
+  <text x="850" y="325" font-family="Arial" font-size="22" font-weight="bold" fill="#e81123">-8.2%</text>
+  
+  <!-- Drawdown Chart -->
+  <rect x="30" y="400" width="450" height="320" fill="white" stroke="#cccccc"/>
+  <text x="50" y="425" font-family="Arial" font-size="16" font-weight="bold" fill="#444444">Drawdown Analysis</text>
+  
+  <!-- Drawdown Plot -->
+  <path d="M80,450 L130,450 L180,470 L230,500 L280,450 L330,450 L380,480 L430,450 L480,450" 
+        fill="none" stroke="#e81123" stroke-width="2"/>
+  <path d="M80,450 L130,450 L180,470 L230,500 L280,450 L330,450 L380,480 L430,450 L480,450" 
+        fill="rgba(232,17,35,0.1)" stroke="none"/>
+  
+  <!-- Drawdown Axis -->
+  <line x1="80" y1="450" x2="480" y2="450" stroke="#cccccc" stroke-width="1"/>
+  <line x1="80" y1="450" x2="80" y2="680" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- Axis Labels -->
+  <text x="60" y="450" font-family="Arial" font-size="10" fill="#888888">0%</text>
+  <text x="55" y="500" font-family="Arial" font-size="10" fill="#888888">-2%</text>
+  <text x="55" y="550" font-family="Arial" font-size="10" fill="#888888">-4%</text>
+  <text x="55" y="600" font-family="Arial" font-size="10" fill="#888888">-6%</text>
+  <text x="55" y="650" font-family="Arial" font-size="10" fill="#888888">-8%</text>
+  
+  <!-- Daily Performance Chart -->
+  <rect x="500" y="400" width="470" height="320" fill="white" stroke="#cccccc"/>
+  <text x="520" y="425" font-family="Arial" font-size="16" font-weight="bold" fill="#444444">Daily Performance</text>
+  
+  <!-- Daily Performance Plot -->
+  <rect x="550" y="600" width="12" height="50" fill="#0078D4"/>
+  <rect x="570" y="650" width="12" height="20" fill="#e81123"/>
+  <rect x="590" y="620" width="12" height="30" fill="#0078D4"/>
+  <rect x="610" y="580" width="12" height="70" fill="#0078D4"/>
+  <rect x="630" y="660" width="12" height="10" fill="#e81123"/>
+  <rect x="650" y="640" width="12" height="30" fill="#e81123"/>
+  <rect x="670" y="580" width="12" height="70" fill="#0078D4"/>
+  <rect x="690" y="620" width="12" height="30" fill="#0078D4"/>
+  <rect x="710" y="670" width="12" height="20" fill="#e81123"/>
+  <rect x="730" y="600" width="12" height="50" fill="#0078D4"/>
+  <rect x="750" y="560" width="12" height="90" fill="#0078D4"/>
+  <rect x="770" y="650" width="12" height="20" fill="#e81123"/>
+  <rect x="790" y="630" width="12" height="40" fill="#e81123"/>
+  <rect x="810" y="580" width="12" height="70" fill="#0078D4"/>
+  <rect x="830" y="610" width="12" height="40" fill="#0078D4"/>
+  <rect x="850" y="590" width="12" height="60" fill="#0078D4"/>
+  
+  <!-- Performance Axis -->
+  <line x1="520" y1="650" x2="920" y2="650" stroke="#cccccc" stroke-width="1"/>
+  <line x1="520" y1="650" x2="520" y2="450" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- Symbol Performance Table -->
+  <rect x="50" y="480" width="400" height="220" fill="white" stroke="#cccccc"/>
+  <text x="60" y="505" font-family="Arial" font-size="16" font-weight="bold" fill="#444444">Symbol Performance</text>
+  
+  <!-- Table Header -->
+  <rect x="60" y="520" width="100" height="30" fill="#f0f0f0" stroke="#cccccc"/>
+  <rect x="160" y="520" width="70" height="30" fill="#f0f0f0" stroke="#cccccc"/>
+  <rect x="230" y="520" width="70" height="30" fill="#f0f0f0" stroke="#cccccc"/>
+  <rect x="300" y="520" width="90" height="30" fill="#f0f0f0" stroke="#cccccc"/>
+  
+  <text x="80" y="540" font-family="Arial" font-size="12" fill="#444444">Symbol</text>
+  <text x="170" y="540" font-family="Arial" font-size="12" fill="#444444">Trades</text>
+  <text x="240" y="540" font-family="Arial" font-size="12" fill="#444444">Win %</text>
+  <text x="320" y="540" font-family="Arial" font-size="12" fill="#444444">Profit</text>
+  
+  <!-- Table Rows -->
+  <rect x="60" y="550" width="100" height="30" fill="white" stroke="#cccccc"/>
+  <rect x="160" y="550" width="70" height="30" fill="white" stroke="#cccccc"/>
+  <rect x="230" y="550" width="70" height="30" fill="white" stroke="#cccccc"/>
+  <rect x="300" y="550" width="90" height="30" fill="white" stroke="#cccccc"/>
+  
+  <text x="80" y="570" font-family="Arial" font-size="12" fill="#444444">EURUSD</text>
+  <text x="180" y="570" font-family="Arial" font-size="12" fill="#444444">42</text>
+  <text x="250" y="570" font-family="Arial" font-size="12" fill="#444444">68.2%</text>
+  <text x="310" y="570" font-family="Arial" font-size="12" fill="#0078D4">$1,824.67</text>
+  
+  <rect x="60" y="580" width="100" height="30" fill="#f9f9f9" stroke="#cccccc"/>
+  <rect x="160" y="580" width="70" height="30" fill="#f9f9f9" stroke="#cccccc"/>
+  <rect x="230" y="580" width="70" height="30" fill="#f9f9f9" stroke="#cccccc"/>
+  <rect x="300" y="580" width="90" height="30" fill="#f9f9f9" stroke="#cccccc"/>
+  
+  <text x="80" y="600" font-family="Arial" font-size="12" fill="#444444">GBPUSD</text>
+  <text x="180" y="600" font-family="Arial" font-size="12" fill="#444444">38</text>
+  <text x="250" y="600" font-family="Arial" font-size="12" fill="#444444">59.1%</text>
+  <text x="310" y="600" font-family="Arial" font-size="12" fill="#0078D4">$1,245.80</text>
+  
+  <rect x="60" y="610" width="100" height="30" fill="white" stroke="#cccccc"/>
+  <rect x="160" y="610" width="70" height="30" fill="white" stroke="#cccccc"/>
+  <rect x="230" y="610" width="70" height="30" fill="white" stroke="#cccccc"/>
+  <rect x="300" y="610" width="90" height="30" fill="white" stroke="#cccccc"/>
+  
+  <text x="80" y="630" font-family="Arial" font-size="12" fill="#444444">XAUUSD</text>
+  <text x="180" y="630" font-family="Arial" font-size="12" fill="#444444">25</text>
+  <text x="250" y="630" font-family="Arial" font-size="12" fill="#444444">72.0%</text>
+  <text x="310" y="630" font-family="Arial" font-size="12" fill="#0078D4">$2,150.45</text>
+  
+  <rect x="60" y="640" width="100" height="30" fill="#f9f9f9" stroke="#cccccc"/>
+  <rect x="160" y

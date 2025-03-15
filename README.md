@@ -15,3 +15,6 @@
 ## Part 1: MT5 Data Extraction with Python
 
 ### Setup Environment
+```python
+# Install required packages
+# pip install MetaTrader5 pandas sqlalchemy psycopg2-binary python-dotenv schedule
